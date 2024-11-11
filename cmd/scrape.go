@@ -38,7 +38,7 @@ func scrape(url string) {
 }
 
 var scrapeCmd = &cobra.Command{
-	Use:   "scraper",
+	Use:   "scrape",
 	Short: "A simple web scraper",
 	Long:  "This tool scrapes a given URL and prints all links found on the page.",
 	Run: func(cmd *cobra.Command, args []string) {
