@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/bryborge/gobag/cmd"
 
 func main() {
-	fmt.Println("hello world")
+	cmd.Execute()
 }
